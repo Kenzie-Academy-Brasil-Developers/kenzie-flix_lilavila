@@ -1,0 +1,13 @@
+/* font-weight:'Helvetica Neue', Helvetica, Arial, sans-serif */
+
+body {
+    background-color: black;
+}
+
+p {
+    color: #ffffff;
+}
+button {
+    color: #ffffff;
+    background-color: #000000;
+}
