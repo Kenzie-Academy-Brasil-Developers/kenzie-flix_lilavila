@@ -1,3 +1,5 @@
+* {font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 
 body {
     display: flex;
@@ -19,7 +21,12 @@ body {
     margin: 10px;
     justify-items: center;
     align-items: center;
-    /* background-color: blueviolet; */
+}
+
+header {
+    height: 80px;
+    width: auto;
+    margin: 90px;
 }
 
 .box {
@@ -39,26 +46,33 @@ body {
 img {
     height: 150px;
     width: 150px;
-    /* border: 1px solid white; */
     border-radius: 10px;
     margin: 20px;
+    border: transparent;
 }
 
-img:hover {
+
+li:hover .imagem {
     border: 1px solid white;
     border-radius: 10px;
-}
+   
+} 
 
-h1 {
-    height: auto;
-    width: auto;
-    margin: 90px;
+li:hover p {
+    color: #ffffff;
+} 
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 p {
-    /* margin-top: 3px; */
     margin-block-end: 40px;
-    color: #ffffff;
+    height: 40px;
+    color: #808080;
 }
 
 .logo {
@@ -69,10 +83,11 @@ p {
 
 .title {
     font-size: 22px;
+    color: #ffffff;
 }
 
 .container-perfil {
-    margin: 40px;
+    margin: 10px;
     padding: 10px;
     border-bottom: #ffffff;
     border-radius: 10px;
